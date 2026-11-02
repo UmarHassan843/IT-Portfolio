@@ -141,3 +141,14 @@ Expected result:
 show ip route
 ```
 Look for routes marked with ``` O ``` which indicates routes learned through OSPF
+
+### R1 result
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/70f3c62560ec3a31c1dcd757bdece48541a855e3/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R1%20OSPF%20Route%20test.png)
+
+### R2 result
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/70f3c62560ec3a31c1dcd757bdece48541a855e3/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R2%20OSPF%20Route%20test.png
+)
+
+### R3 result
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/70f3c62560ec3a31c1dcd757bdece48541a855e3/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R3%20OSPF%20Route%20test.png)
+
