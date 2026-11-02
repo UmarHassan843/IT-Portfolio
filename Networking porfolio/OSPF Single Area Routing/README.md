@@ -114,3 +114,17 @@ write memory
 - 0.0.0.255: Wildcard mask corresponding to a /24 network.
 - 0.0.0.3: Wildcard mask corresponding to a /30 network.
 - passive-interface: Advertises the LAN network through OSPF but prevents OSPF neighbor discovery on that LAN interface.
+
+## Verification and Testing
+
+### Check OSPF Neighbors
+```cisco
+show ip ospf neighbor
+```
+Expected result:
+- R1 should discover R2 and R3.
+- R2 should discover R1 and R3.
+- R3 should discover R1 and R2.
+
+### R1 result
+![alt text]
