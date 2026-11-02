@@ -152,3 +152,11 @@ Look for routes marked with ``` O ``` which indicates routes learned through OSP
 ### R3 result
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/70f3c62560ec3a31c1dcd757bdece48541a855e3/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R3%20OSPF%20Route%20test.png)
 
+## Test PC connectivity
+
+### PC-HQ1 to PC3-BRANCH1 and PC5-BRANCH2
+```cisco
+ping 192.168.20.10
+ping 192.168.30.10
+```
+
