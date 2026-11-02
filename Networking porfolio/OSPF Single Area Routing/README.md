@@ -127,4 +127,4 @@ Expected result:
 - R3 should discover R1 and R2.
 
 ### R1 result
-![alt text]
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/fa21b1ae2d4117254adae23d2ca6dc53e802453f/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R1%20OSPF%20Neighbor%20test.png)
