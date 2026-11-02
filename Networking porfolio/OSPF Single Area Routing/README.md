@@ -15,3 +15,32 @@ multiple routers.
 
 ## Topology
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/f26c370f1e1cfebdbe2a01dfa886096e21e3da73/Networking%20porfolio/OSPF%20Single%20Area%20Routing/TOPOLOGY.png)
+
+## IP Addressing
+
+### LAN Networks
+
+| Location | Network | Gateway |
+| :--- | :--- | :--- |
+| HQ | 192.168.10.0/24 | 192.168.10.1 |
+| Branch 1 | 192.168.20.0/24 | 192.168.20.1 |
+| Branch 2 | 192.168.30.0/24 | 192.168.30.1 |
+
+### Router to Router networks (/30)
+
+| Connection | Network | First router | Second router |
+| :--- | :--- | :--- | :--- |
+| R1 ↔ R2 | 10.0.12.0/30 | R1: 10.0.12.1 | R2: 10.0.12.2 |
+| R2 ↔ R3 | 10.0.23.0/30 | R2: 10.0.23.1 | R3: 10.0.23.2 |
+| R3 ↔ R1 | 10.0.31.0/30 | R3: 10.0.31.1 | R1: 10.0.31.2 |
+
+### PC addressing
+
+| PC | IP address | Subnet mask | Default gateway |
+| :--- | :--- | :--- | :--- |
+| PC-HQ1 | 192.168.10.10 | 255.255.255.0 | 192.168.10.1 |
+| PC-HQ2 | 192.168.10.11 | 255.255.255.0 | 192.168.10.1 |
+| PC-BR1 | 192.168.20.10 | 255.255.255.0 | 192.168.20.1 |
+| PC-BR2 | 192.168.20.11 | 255.255.255.0 | 192.168.20.1 |
+| PC-BR3 | 192.168.30.10 | 255.255.255.0 | 192.168.30.1 |
+| PC-BR4 | 192.168.30.11 | 255.255.255.0 | 192.168.30.1 |
