@@ -106,3 +106,11 @@ router ospf 1
 end
 write memory
 ```
+
+## NOTES
+- router ospf 1: Starts OSPF process 1.
+- router-id: Assigns a unique router identity.
+- network: Identifies interfaces that should participate in OSPF and the area they belong to.
+- 0.0.0.255: Wildcard mask corresponding to a /24 network.
+- 0.0.0.3: Wildcard mask corresponding to a /30 network.
+- passive-interface: Advertises the LAN network through OSPF but prevents OSPF neighbor discovery on that LAN interface.
