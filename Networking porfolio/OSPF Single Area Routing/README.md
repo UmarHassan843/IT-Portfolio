@@ -57,3 +57,52 @@ multiple routers.
 | R3 Router ID | 3.3.3.3 |
 
 ## OSPF Configurations
+
+### R1-HQ
+```cisco
+enable
+configure terminal
+
+router ospf 1
+ router-id 1.1.1.1
+ network 192.168.10.0 0.0.0.255 area 0
+ network 10.0.12.0 0.0.0.3 area 0
+ network 10.0.31.0 0.0.0.3 area 0
+ passive-interface gigabitEthernet 0/0
+ exit
+
+end
+write memory
+```
+### R2-BRANCH1
+```cisco
+enable
+configure terminal
+
+router ospf 1
+ router-id 2.2.2.2
+ network 192.168.20.0 0.0.0.255 area 0
+ network 10.0.12.0 0.0.0.3 area 0
+ network 10.0.23.0 0.0.0.3 area 0
+ passive-interface gigabitEthernet 0/0
+ exit
+
+end
+write memory
+```
+### R3-BRANCH2
+```cisco
+enable
+configure terminal
+
+router ospf 1
+ router-id 3.3.3.3
+ network 192.168.30.0 0.0.0.255 area 0
+ network 10.0.23.0 0.0.0.3 area 0
+ network 10.0.31.0 0.0.0.3 area 0
+ passive-interface gigabitEthernet 0/0
+ exit
+
+end
+write memory
+```
