@@ -135,3 +135,9 @@ Expected result:
 ### R3 result
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/3ed14c16e33f3e5219dd37a5c78566e5b3f405ed/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R3%20OSPF%20Neighbor%20test.png
 )
+
+### Test2: Check Routing Tables
+```cisco
+show ip route
+```
+Look for routes marked with ``` O ``` which indicates routes learned through OSPF
