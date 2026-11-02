@@ -14,3 +14,4 @@ multiple routers.
 - Troubleshoot OSPF-related connectivity issues using Cisco IOS diagnostic commands.
 
 ## Topology
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/f26c370f1e1cfebdbe2a01dfa886096e21e3da73/Networking%20porfolio/OSPF%20Single%20Area%20Routing/TOPOLOGY.png)
