@@ -44,3 +44,16 @@ multiple routers.
 | PC-BR2 | 192.168.20.11 | 255.255.255.0 | 192.168.20.1 |
 | PC-BR3 | 192.168.30.10 | 255.255.255.0 | 192.168.30.1 |
 | PC-BR4 | 192.168.30.11 | 255.255.255.0 | 192.168.30.1 |
+
+## OSPF Design
+
+| Setting | Value |
+| :--- | :--- |
+| Routing protocol | OSPF |
+| Process ID | 1 |
+| OSPF area | 0 |
+| R1 Router ID | 1.1.1.1 |
+| R2 Router ID | 2.2.2.2 |
+| R3 Router ID | 3.3.3.3 |
+
+## OSPF Configurations
