@@ -117,7 +117,7 @@ write memory
 
 ## Verification and Testing
 
-### Check OSPF Neighbors
+### Test1: Check OSPF Neighbors
 ```cisco
 show ip ospf neighbor
 ```
