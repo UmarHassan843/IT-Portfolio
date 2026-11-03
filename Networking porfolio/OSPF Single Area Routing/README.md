@@ -199,7 +199,13 @@ show ip route ospf
 
 R1 should lose its direct OSPF adjacency with R2 but not with R3
 
-Which means OSPF be able to use R3 as an alternative path for R3 to communicate with R2
+Which means OSPF be able to use R3 as an alternative path for R1 to communicate with R2
+
+### Testing this by pinging from PC1-HQ To PC3-BRANCH1
+```cisco
+ping 192.168.20.10
+```
+
 
 
 
