@@ -170,8 +170,10 @@ ping 192.168.30.10
 - The connection between HQ and Branch 1 goes down.
 
 ### Step 1: Establish a baseline
+To confirm communication is working from PC1-HQ to PC3-BRANCH1
 ```cisco
 ping 192.168.20.10
 ```
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/ae7b4db7b346ee0e5fcbd5047446fe1542df49f0/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/Ping%20PC-HQ%20to%20PC3-BRANCH1.png)
+
 
