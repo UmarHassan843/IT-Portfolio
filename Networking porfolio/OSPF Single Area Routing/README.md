@@ -195,7 +195,7 @@ end
 show ip ospf neighbor
 show ip route ospf
 ```
-![alt text]()
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/38233ed56fba4835606697027417116a8c74d96a/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R2%20OSPF%20Neighbor%20Adjacency.png)
 R1 should lose its direct OSPF adjacency with R2
 
 
