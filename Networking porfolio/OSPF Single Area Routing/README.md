@@ -185,8 +185,18 @@ configure terminal
 interface gigabitEthernet 0/1
  shutdown
 
+
 end
 ```
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/755094c317ca7796e77098ad0bc1af56797e6fab/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R1-R2%20Link%20Shutdown.png)
+
+### Step 3: Observe OSPF
+```cisco
+show ip ospf neighbor
+show ip route ospf
+```
+![alt text]()
+R1 should lose its direct OSPF adjacency with R2
+
 
 
