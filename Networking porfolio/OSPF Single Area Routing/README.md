@@ -205,6 +205,18 @@ Which means OSPF be able to use R3 as an alternative path for R1 to communicate 
 ```cisco
 ping 192.168.20.10
 ```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/43f874cef2c9f0acd06c7e1863e99c7dcfe372d1/Networking%20porfolio/OSPF%20Single%20Area%20Routing/Verification%20and%20Testing/R1-R2%20OSPF%20Alternative%20path%20connectivity%20test.png)
+
+### Step 3: Restore Connection
+```cisco
+configure terminal
+
+interface gigabitEthernet 0/1
+ no shutdown
+
+end
+```
+
 
 
 
