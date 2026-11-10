@@ -44,3 +44,22 @@ A company has two departments sharing one physical switch. The departments must 
 | 10 | HR | Fa0/1–Fa0/2 |
 | 20 | IT | Fa0/3–Fa0/4 |
 | Trunk | Router link | Fa0/24 |
+
+## VLAN Configurations
+### VLAN 10 (HR)
+```cisco
+vlan 10
+name HR
+exit
+```
+### VLAN 20 (IT)
+```cisco
+vlan 20
+name IT
+exit
+```
+### Verify VLANs
+```cisco
+end
+show vlan brief
+```
