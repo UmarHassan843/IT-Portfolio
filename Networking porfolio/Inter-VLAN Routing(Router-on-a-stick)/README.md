@@ -63,3 +63,4 @@ exit
 end
 show vlan brief
 ```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/b4bd6132ada6f21aa99637738f8e05598101d273/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%20verify.png)
