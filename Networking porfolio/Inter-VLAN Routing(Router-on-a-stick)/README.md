@@ -76,3 +76,25 @@ show vlan brief
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/b4bd6132ada6f21aa99637738f8e05598101d273/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%20verify.png)
 
 ### Switchport Config
+### VLAN 10 (HR)
+```cisco
+enable
+configure terminal
+
+interface range fastEthernet 0/1-2
+switchport mode access
+switchport access vlan 10
+exit
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/9acbbd6576429aef92d238711cc35eb2c5747eb4/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%2010%20Switchport.png)
+
+### VLAN 20 (IT)
+```cisco
+interface range fastEthernet 0/3-4
+switchport mode access
+switchport access vlan 20
+exit
+end
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/a319687ca7b6ca691224262d965da6b5bcbdbc4f/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%2020%20Switchport.png)
+
