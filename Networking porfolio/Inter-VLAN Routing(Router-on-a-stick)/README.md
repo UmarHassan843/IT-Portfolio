@@ -158,4 +158,24 @@ show ip interface brief
 ```
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/c70c86aa65949d0f5aa6e397493e803d66d8eb7d/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/IP%20interface.png)
 
+## PC connectivity test
+### Test 1: Same VLAN Configuration
+PC1-HR to PC2-HR
+```cisco
+ping 192.168.10.11
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/aef6c373b5aed973f48d778b85a8d069064f3d5e/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/Ping%20PCHR1-PCHR2.png)
+
+### Test 2: Default gateway
+```cisco
+ping 192.168.10.1
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/5450e80a726c01276a2d2b5442148ac08c2089f2/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/Ping%20Default%20Gateway.png)
+
+### Test 3: Inter-VLAN communication
+PC1-HR to PC1-IT
+```cisco
+ping 192.168.20.10
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/3d78474447e7475409497e37fdff7abff4331098/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/InterVlan%20communication.png)
 
