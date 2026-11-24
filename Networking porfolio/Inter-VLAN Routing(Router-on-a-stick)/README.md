@@ -141,5 +141,21 @@ exit
 - encapsulation dot1Q 10 associates it with VLAN 10.
 - ip address assigns the HR default gateway.
 
+### Configuring subinterface for IT
+```cisco
+interface gigabitEthernet 0/0.20
+encapsulation dot1Q 20
+ip address 192.168.20.1 255.255.255.0
+exit
+
+end
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/7d6e90891761ebdd9b1f8ee81e05fa0c309ba8ca/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%2020%20subinterface.png)
+
+### Verify Configuration
+```cisco
+show ip interface brief
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/c70c86aa65949d0f5aa6e397493e803d66d8eb7d/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/IP%20interface.png)
 
 
