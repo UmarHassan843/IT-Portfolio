@@ -179,3 +179,4 @@ ping 192.168.20.10
 ```
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/3d78474447e7475409497e37fdff7abff4331098/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/InterVlan%20communication.png)
 
+## Verification and Testing
