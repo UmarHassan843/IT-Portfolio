@@ -180,3 +180,19 @@ ping 192.168.20.10
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/3d78474447e7475409497e37fdff7abff4331098/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/InterVlan%20communication.png)
 
 ## Verification and Testing
+### Switch Verification
+To inspect VLAN Membership and Trunk Configuration
+```cisco
+show vlan brief
+show interfaces trunk
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/b99c8ed81a48b60c9430d5f6d2a8c785a5729fb9/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%20verify.png)
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/b99c8ed81a48b60c9430d5f6d2a8c785a5729fb9/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/Trunk%20verification.png)
+
+### Router Verification
+```cisco
+show ip interface brief
+show ip route
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/462a7e88c6bdb5e00942bd9d37a1f1c1f97ea214/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/ip%20interface%20brief.png)
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/462a7e88c6bdb5e00942bd9d37a1f1c1f97ea214/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/ip%20route.png)
