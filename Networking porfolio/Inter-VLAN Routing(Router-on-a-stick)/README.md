@@ -119,3 +119,27 @@ show interfaces trunk
 ```
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/2961caeaa31592a4f05b71cdabe39af876a7e88b/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/Trunk%20verification.png)
 
+## Configuring Router-on-a-stick
+### Router addressing
+
+| Router interface | VLAN | IP address |
+| :--- | :--- | :--- |
+| G0/0.10 | 10 | 192.168.10.1/24 |
+| G0/0.20 | 20 | 192.168.20.1/24 |
+
+### Configuring subinterface for HR
+```cisco
+interface gigabitEthernet 0/0.10
+encapsulation dot1Q 10
+ip address 192.168.10.1 255.255.255.0
+exit
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/e0ed687b85359b23a9d0752d6340f0f54bb1193b/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%2010%20subinterface.png)
+
+### Note:
+- g0/0.10 creates a logical subinterface.
+- encapsulation dot1Q 10 associates it with VLAN 10.
+- ip address assigns the HR default gateway.
+
+
+
