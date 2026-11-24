@@ -75,7 +75,7 @@ show vlan brief
 ```
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/b4bd6132ada6f21aa99637738f8e05598101d273/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%20verify.png)
 
-### Switchport Config
+## Switchport Config
 ### VLAN 10 (HR)
 ```cisco
 enable
@@ -97,4 +97,25 @@ exit
 end
 ```
 ![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/a319687ca7b6ca691224262d965da6b5bcbdbc4f/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/VLAN%2020%20Switchport.png)
+
+## Trunk Link Configuration
+On Port Fa0/24 which connects the switch to the router
+```cisco
+enable
+configure terminal
+
+interface fastEthernet 0/24
+switchport mode trunk
+no shutdown
+exit
+
+end
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/d187c3a0c28c21aa334d12e336cbb72aef9d6ac0/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/Trunk%20Link%20config.png)
+
+### Trunk Verification
+```cisco
+show interfaces trunk
+```
+![alt text](https://github.com/UmarHassan843/IT-Portfolio/blob/2961caeaa31592a4f05b71cdabe39af876a7e88b/Networking%20porfolio/Inter-VLAN%20Routing(Router-on-a-stick)/Trunk%20verification.png)
 
